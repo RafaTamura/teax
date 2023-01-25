@@ -1,8 +1,36 @@
 .App {
 background-color:#F8EDFE;
+margin: 0;
 }
-
-
 .App-header {
   min-height: 100vh;
+}
+.cabeca{
+  background: linear-gradient(0deg, rgba(204, 145, 232, 0.2), rgba(204, 145, 232, 0.2)), #DEA0FA;  
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 15vh;
+  width: 100%;
+  border-radius: 2px;
+  position: relative;
+}
+.esqlateral{
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(50deg, #b973d9,#dea0fa) ;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.conteudo{
+  background-color: green;
+  position: relative;
+
+}
+.dirlateral{
+  height: 100vh;
+  background-color: yellow;
+  position: relative;
+
+}
+.debug{
+  border: red 2px solid;
 }
