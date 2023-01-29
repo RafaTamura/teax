@@ -12,6 +12,10 @@ margin: 0;
   width: 100%;
   border-radius: 2px;
   position: relative;
+  background-image: url(../public/tea.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .esqlateral{
   height: 100vh;
@@ -21,15 +25,26 @@ margin: 0;
 
 }
 .conteudo{
-  background-color: green;
   position: relative;
 
 }
 .dirlateral{
   height: 100vh;
-  background-color: yellow;
+  border-left: solid 1px black ;
   position: relative;
 
+}
+.perfil{
+  background-image: url(../public/perfil.jpg);
+  background-position: 50% 15%;
+  background-size: 50vh;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 60px;
+  top: 8px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 .debug{
   border: red 2px solid;
