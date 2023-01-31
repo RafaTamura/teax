@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 .App {
 background-color:#F8EDFE;
 margin: 0;
@@ -22,10 +23,9 @@ margin: 0;
   position: relative;
   background: linear-gradient(50deg, #b973d9,#dea0fa) ;
   border: 1px solid rgba(0, 0, 0, 0.1);
-
 }
 .conteudo{
-  position: relative;
+position: relative;
 
 }
 .dirlateral{
@@ -35,16 +35,46 @@ margin: 0;
 
 }
 .perfil{
-  background-image: url(../public/perfil.jpg);
+  background-image: url(../public/perfil.jpg) ;
   background-position: 50% 15%;
-  background-size: 50vh;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 60px;
-  top: 8px;
+  background-size: cover;
+  position: relative;
+  width: 15vh;
+  height: 15vh;
+  left: 20%;
+  top: 2%;
   border-radius: 50%;
   margin-top: 20px;
+}
+.nome{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+.bar{
+  position: relative;
+  border: rgba(232, 231, 232, 0.8) solid 1px;
+  width: 100%;
+  top: 40px
+}
+.barralateral{
+  margin-top: 30% ;
+  width: 100%;
+  border: red solid 2px;
+  position: absolute;
+
+}
+.barralateral a{
+  border: blue solid 2px;
+  width: 70%;
+  padding: 5px;
+  color: #000;
+  text-decoration: none;
+  float: left;
+  margin-left: 30px;
+
+  
 }
 .debug{
   border: red 2px solid;
